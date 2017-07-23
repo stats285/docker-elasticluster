@@ -56,7 +56,7 @@ ENTRYPOINT echo '\n\
  DO NOT forget to stop your cluster after use to avoid getting charged:\n\
  	$ elasticluster stop <your-cluster-name>\n\n\
  Useful commands:\n\
- list running clusters:           $ elasticluster list-templates\n\ 	
+ list running clusters:           $ elasticluster list\n\ 	
  list configured clusters:        $ elasticluster list-templates\n\ 	
  list nodes of running clusters:  $ list-nodes <your-cluster-name>\n\
  for more  info, visit\n\ 
