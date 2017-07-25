@@ -11,5 +11,6 @@ You can create a container from this image by:
   `docker run -v ~/.ssh:/root/.ssh -P -it stats285/elasticluster`
 
 Author: Hatef Monajemi (monajemi AT stanford DOT edu)
+
 Date  : 24 July 2017
 
