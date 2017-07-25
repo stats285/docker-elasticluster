@@ -1,6 +1,6 @@
 # stats285/elasticluster
 
-This is a Docker image (Dockerfile on [GitHub](https://github.com/stats285/docker-elasticluster) ) written for **STATS 285** course at Stanford.
+This is a Docker image ( Dockerfile on [GitHub](https://github.com/stats285/docker-elasticluster) ) written for **STATS 285** course at Stanford.
 
 You can pull already built docker image by:
 
