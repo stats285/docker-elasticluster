@@ -8,7 +8,7 @@ RUN apt-get update \
 
 #################################################
 # add everything from Dockerfile's directory 
-# to container's elasticluster (working) dir 
+# to container's elasticluster dir 
 #################################################
 COPY elasticluster/ /elasticluster/
 
