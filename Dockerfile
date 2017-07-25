@@ -1,5 +1,5 @@
 ################################################
-# Install anaconda for python
+# Install python
 # install gcc compiler 
 ################################################
 From python:2.7-slim
