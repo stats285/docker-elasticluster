@@ -5,4 +5,4 @@ Author: Hatef Monajemi (monajemi@stanford.edu)
 
 You can get the built docker image by:
 
-  docker pull stats285/elasticluster
+  `docker pull stats285/elasticluster`
