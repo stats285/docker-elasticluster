@@ -9,7 +9,7 @@ noauth_local_webserver=True
 gce_client_id=<CLIENT>
 gce_client_secret=<SECRET>
 gce_project_id=<PROJECT>
-zone=us-west1-a
+#zone=us-west1-a
 
 
 [login/google]
@@ -26,20 +26,22 @@ frontend_groups=slurm_master
 compute_groups=slurm_worker
 
 
+
 [cluster/gce-slurm]
 cloud=google
 login=google
 setup=ansible-slurm
 security_group=default
 image_id=debian-8-jessie-v20170717
-flavor=n1-standard-1     # use n1-standard-4 for nodes with 4vCPUs
+flavor=n1-standard-2
 frontend_nodes=1
-compute_nodes=2
+compute_nodes=3
 image_userdata=
 ssh_to=frontend
 
 # Uncomment below to get more permanent disk. Default is 10G
+# e.g., 100G on each compute node
 
 #[cluster/gce-slurm/compute]
 #boot_disk_type=pd-standard
-#boot_disk_size=100                     # 100G
+#boot_disk_size=100
